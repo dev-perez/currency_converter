@@ -11,25 +11,38 @@ This API provides information for converting values between different currencies
 Before you begin, you will need to have the following tools installed on your machine: Git and Python. Additionally, it is recommended to have an editor for working with the code, such as VSCode.
 
 ## Installation
-These instructions will allow you to get a copy of the project up and running on your local machine for development and testing purposes.
 
-1. Activate the virtual environment using the terminal:
- ```bash
+These instructions will allow you to get a copy of the project up and running on your local machine for development purposes.
+
+Install a virtual environment using the terminal:
+```bash
+pip3 install virtualenv
+```
+
+Create a virtualenv:
+```bash
+python3 -m virtualenv <venv>
+```
+
+Activate the virtualenv:
+
+```bash
 . venv/bin/activate
 ```
-2. Open the code editor:
+
+Open the code editor:
 ```bash
  code .
 ```
-3. Install the required packages: 
+
+Install the required packages:
 ```bash
 venv/bin/pip3 install -r requirements.txt
 ```
 
-4. Start the server: 
-
+Start the server and run project:
 ```bash
-$ python3 app.py
+ python3 app.py
 ```
 
 ## Usage
